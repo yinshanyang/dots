@@ -1,0 +1,87 @@
+"*":
+  core:
+    autoHideMenuBar: true
+    customFileTypes:
+      "source.js-semantic": [
+        "js"
+      ]
+    disabledPackages: [
+      "about"
+      "archive-view"
+      "autocomplete-atom-api"
+      "background-tips"
+      "bookmarks"
+      "autocomplete-snippets"
+      "autoflow"
+      "encoding-selector"
+      "github"
+      "image-view"
+      "keybinding-resolver"
+      "language-c"
+      "language-clojure"
+      "language-coffee-script"
+      "language-csharp"
+      "language-git"
+      "language-go"
+      "language-hyperlink"
+      "language-java"
+      "language-mustache"
+      "language-objective-c"
+      "language-perl"
+      "language-php"
+      "language-property-list"
+      "language-python"
+      "language-ruby"
+      "language-ruby-on-rails"
+      "language-sql"
+      "language-toml"
+      "language-typescript"
+      "line-ending-selector"
+      "link"
+      "open-on-github"
+      "package-generator"
+      "snippets"
+      "styleguide"
+      "timecop"
+      "tree-view"
+      "welcome"
+      "wrap-guide"
+    ]
+    telemetryConsent: "limited"
+    themes: [
+      "nucleus-dark-ui"
+      "gruvbox"
+    ]
+    titleBar: "hidden"
+  editor:
+    fontFamily: "Fira Code"
+    fontSize: 12
+    nonWordCharacters: "/\\()\"':,.;<>~!@#%^&*|+=[]{}`?-…"
+    preferredLineLength: 9999
+    scrollPastEnd: true
+    showIndentGuide: true
+    tabType: "soft"
+  "exception-reporting":
+    userId: "6cfd29de-cf60-66c4-f945-15ebf18ea50b"
+  linter:
+    lintPreviewTabs: false
+  "linter-eslint":
+    globalNodePath: "/usr/local"
+  "linter-ui-default":
+    useBusySignal: false
+  welcome:
+    showOnStartup: false
+".js.regexp.replacement.source":
+  editor:
+    nonWordCharacters: "/\\()\"':,.;<>~!@#%^&*|+=[]{}`?-…"
+    preferredLineLength: 9999
+    softWrapHangingIndent: 2
+".js.regexp.source":
+  editor:
+    nonWordCharacters: "/\\()\"':,.;<>~!@#%^&*|+=[]{}`?-…"
+    preferredLineLength: 9999
+    softWrapHangingIndent: 2
+".js.source":
+  editor:
+    nonWordCharacters: "/\\()\"':,.;<>~!@#%^&*|+=[]{}`?-…"
+    preferredLineLength: 9999

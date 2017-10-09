@@ -1,0 +1,4 @@
+clear control
+clear mod4
+add control = Super_L Super_R
+add mod4 = Control_L Control_R

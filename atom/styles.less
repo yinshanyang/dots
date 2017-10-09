@@ -1,0 +1,76 @@
+@import "syntax-variables";
+
+atom-text-editor {
+  padding: 1em;
+  text-rendering: optimizeLegibility;
+
+  .scroll-view {
+    padding-left: 1em;
+  }
+}
+
+atom-overlay {
+  margin-top: 0.5em;
+  margin-left: 2em;
+}
+
+atom-pane-container atom-pane.pane {
+  border: none;
+}
+
+.tool-bar,
+.tool-panel.panel-left,
+.tab-bar {
+  display: none;
+}
+
+.title-bar .title {
+  display: none;
+}
+
+atom-panel.header {
+  border: none;
+}
+
+atom-dock.left {
+  display: none;
+}
+
+.status-bar {
+  background: @syntax-background-color;
+
+  .status-bar-left {
+    status-bar-file {
+      float: right;
+    }
+
+    status-bar-cursor, status-bar-selection {
+      display: none;
+    }
+
+    status-bar-file {
+      margin-right: 0;
+      font-size: 1.2em;
+    }
+
+    linter-bottom-container {
+      float: left;
+
+      linter-bottom-tab {
+        display: none;
+      }
+
+      linter-bottom-status {
+        margin-left: 0;
+
+        .icon:before {
+          display: none;
+        }
+      }
+    }
+  }
+
+  .status-bar-right {
+    display: none;
+  }
+}

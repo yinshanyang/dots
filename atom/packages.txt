@@ -1,0 +1,8 @@
+gruvbox@1.0.7
+intentions@1.1.5
+linter@2.2.0
+linter-eslint@8.3.2
+linter-ui-default@1.6.10
+nucleus-dark-ui@0.12.3
+semanticolor@3.5.5
+
