@@ -54,7 +54,7 @@
     ]
     titleBar: "hidden"
   editor:
-    fontFamily: "Fira Code"
+    fontFamily: "Fira Code, monospace"
     fontSize: 12
     nonWordCharacters: "/\\()\"':,.;<>~!@#%^&*|+=[]{}`?-…"
     preferredLineLength: 9999
