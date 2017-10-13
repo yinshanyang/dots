@@ -1,2 +1,3 @@
 xmodmap ~/.xmodmap
+compton --shadow-exclude '!focused' &
 exec awesome
