@@ -1,6 +1,7 @@
 "*":
   core:
     autoHideMenuBar: true
+    closeDeletedFileTabs: true
     customFileTypes:
       "source.js-semantic": [
         "js"
@@ -46,6 +47,7 @@
       "tree-view"
       "welcome"
       "wrap-guide"
+      "go-to-line"
     ]
     telemetryConsent: "limited"
     themes: [

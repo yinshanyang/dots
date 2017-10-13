@@ -32,7 +32,7 @@ do
                          title = "Oops, an error happened!",
                          text = tostring(err) })
         in_error = false
-    end)
+     end)
 end
 -- }}}
 
@@ -95,7 +95,8 @@ awful.screen.connect_for_each_screen(function(s)
       gears.color("#3c3836"))
 
     -- Each screen has its own tag table.
-    awful.tag({ "1" }, s, awful.layout.layouts[1])
+    tags = awful.tag({ "1" }, s, awful.layout.layouts[1])
+    tags[1].useless_gap = 5
 
     -- Create a promptbox for each screen
     s.mypromptbox = awful.widget.prompt()
@@ -221,8 +222,7 @@ root.keys(globalkeys)
 awful.rules.rules = {
     -- All clients will match this rule.
     { rule = { },
-      -- properties = { border_width = beautiful.border_width,
-      properties = { border_width = 5,
+      properties = { border_width = 1,
                      border_color = "#3c3836",
                      focus = awful.client.focus.filter,
                      raise = true,
@@ -283,6 +283,10 @@ client.connect_signal("manage", function (c)
         -- Prevent clients from being unreachable after screen count changes.
         awful.placement.no_offscreen(c)
     end
+
+    -- c.shape = function (cr, w, h)
+    --   gears.shape.rounded_rect(cr, w, h, 4)
+    -- end
 end)
 
 -- Enable sloppy focus, so that focus follows mouse.
