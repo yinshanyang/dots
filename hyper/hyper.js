@@ -1,6 +1,6 @@
 module.exports = {
   config: {
-    updateChannel: 'stable',
+    updateChannel: 'canary',
     fontSize: 12,
     fontFamily: 'FiraCode, "Fira Code", monospace',
     cursorColor: '#ebdbb2',
